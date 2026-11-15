@@ -1655,7 +1655,7 @@ const placeData = {
     desc: "Noida is a major commercial and residential destination with corporate infrastructure, IT hubs and established developments.",
     media: {
     type: "video",
-    source: "https://www.pexels.com/download/video/30876250/",
+    source: "https://www.pexels.com/download/video/31153875/",
     poster: "assets/images/noida.jpg"
     },
     items: [
