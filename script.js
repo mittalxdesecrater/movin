@@ -2377,15 +2377,15 @@ const destinationProjects = {
     "ATS Le Grandiose"
   ],
   "greater-noida": [
-    "Jaypee Greens – Castle Court",
-    "Jaypee Greens – Spa Court",
-    "Jaypee Greens – Sea Court",
-    "Jaypee Greens – Earth Court",
-    "Jaypee Greens – Del Court",
-    "Jaypee Greens – Crescent Court",
-    "Jaypee Greens – Sun Court",
-    "Jaypee Greens – Star Court",
-    "Jaypee Greens – Moon Court",
+    "Jaypee Greens - Castle Court",
+    "Jaypee Greens - Spa Court",
+    "Jaypee Greens - Sea Court",
+    "Jaypee Greens - Earth Court",
+    "Jaypee Greens - Del Court",
+    "Jaypee Greens - Crescent Court",
+    "Jaypee Greens - Sun Court",
+    "Jaypee Greens - Star Court",
+    "Jaypee Greens - Moon Court",
     "Gaur Legacy",
     "Gaur Insland",
     "Gaur Trecento",
@@ -2445,25 +2445,25 @@ const destinationProjects = {
     "Lagoon Views by DAMAC",
     "Shahrukhz Residences",
     "The Oasis by Emaar",
-    "Palm Jebel Ali – The Beach Collection",
+    "Palm Jebel Ali-The Beach Collection",
     "Dubai Creek Harbour",
     "Emaar Beachfront",
     "Chelsea Residences",
     "Burj Binghatti Jacob & Co. Residences",
     "Como Residences",
-    "DAMAC Lagoons – Venice Cluster",
+    "DAMAC Lagoons-Venice Cluster",
     "Emaar South",
-    "Bay Villas – Dubai Islands"
+    "Bay Villas-Dubai Islands"
   ],
   "ayodhya": [
-    "The Sarayu – HOABL",
+    "The Sarayu-HOABL",
     "Vashishth Kunj",
     "Aero Vista City",
     "Shri Ram Rajyam",
-    "Navya Ayodhya – Greenfield Township",
+    "Navya Ayodhya-Greenfield Township",
     "Samrajya Ayodhya",
-    "VEDA – Aurika Estates",
-    "Greenfield Township – Sector 8C"
+    "VEDA-Aurika Estates",
+    "Greenfield Township-Sector 8C"
   ],
   "dholera": [
     "7 Oak Platinum",
@@ -2471,7 +2471,7 @@ const destinationProjects = {
     "Fidato Luxuria",
     "Bliss Grandeur 2",
     "Shantiban Skylar",
-    "Aakar – GAP",
+    "Aakar-GAP",
     "Prelude Industrial Park",
     "Dholera Iconic"
   ]
@@ -2524,11 +2524,7 @@ function renderProjectPortfolio(destinationKey, destinationTitle) {
           <img src="${image}" alt="${safeName} project"
             loading="lazy"
             onerror="this.style.display='none';this.nextElementSibling.hidden=false">
-          <div class="movin-project-placeholder" hidden>
-            <span class="movin-placeholder-brand">MOVIN</span>
-            <span>PROJECT PHOTOGRAPH</span>
-            <small>Add verified image to<br>${image}</small>
-          </div>
+           
           <span class="movin-project-tag">${category}</span>
         </div>
         <div class="movin-project-info">
