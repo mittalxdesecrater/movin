@@ -2508,7 +2508,7 @@ function renderProjectPortfolio(destinationKey, destinationTitle) {
 
   const cards = list.map(name => {
     const slug = projectSlug(name);
-    const image = `assets/images/projects/${destinationKey}/${slug}.jpg`;
+    const image = `projects/${destinationKey}/${slug}.jpg`;
     const safeName = escapeProjectText(name);
     const category = projectCategory(name);
     const message = encodeURIComponent(
